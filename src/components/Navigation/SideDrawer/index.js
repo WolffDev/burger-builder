@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import PropTypes from 'prop-types';
 
 import classes from './SideDrawer.css';
 import BackDrop from '../../UI/Backdrop';
@@ -24,6 +25,11 @@ const sideDrawer = props => {
       </div>
     </Fragment>
   );
+};
+
+sideDrawer.propTypes = {
+  open: PropTypes.bool.isRequired,
+  closed: PropTypes.func.isRequired,
 };
 
 export default sideDrawer;
