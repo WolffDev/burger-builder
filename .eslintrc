@@ -40,20 +40,6 @@
 		"react/forbid-prop-types": 0,
 		"react/no-unescaped-entities": 0,
 		"radix": 0,
-		"no-shadow": [
-			2,
-			{
-				"hoist": "all",
-				"allow": [
-					"resolve",
-					"reject",
-					"done",
-					"next",
-					"err",
-					"error"
-				]
-			}
-		],
 		"quotes": [
 			2,
 			"single",
