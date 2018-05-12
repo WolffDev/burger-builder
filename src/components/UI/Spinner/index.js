@@ -5,7 +5,6 @@ const spinner = () => (
     <div />
     <div />
     <div />
-    <div />
   </div>
 );
 
